@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="5affc2cdebab43a9a0223509fa874b0b" Name="Diagram1">
+        <EntityTypeShape EntityType="CarShowroomModel.Cars" Width="1.5" PointX="3" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="CarShowroomModel.Customers" Width="1.5" PointX="5.25" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="CarShowroomModel.Manufactures" Width="1.5" PointX="0.75" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="CarShowroomModel.Positions" Width="1.5" PointX="1.5" PointY="15.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="CarShowroomModel.Staff" Width="1.5" PointX="1.5" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CarShowroomModel.Supplementary_agreement" Width="1.5" PointX="0.75" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="CarShowroomModel.Type_body" Width="1.5" PointX="0.75" PointY="18.875" IsExpanded="true" />
+        <AssociationConnector Association="CarShowroomModel.FK_Cars_Manufactures" ManuallyRouted="false" />
+        <AssociationConnector Association="CarShowroomModel.FK_Cars_Staff" ManuallyRouted="false" />
+        <AssociationConnector Association="CarShowroomModel.FK_Cars_Supplementary_agreement" ManuallyRouted="false" />
+        <AssociationConnector Association="CarShowroomModel.FK_Cars_Supplementary_agreement1" ManuallyRouted="false" />
+        <AssociationConnector Association="CarShowroomModel.FK_Cars_Supplementary_agreement2" ManuallyRouted="false" />
+        <AssociationConnector Association="CarShowroomModel.FK_Cars_Type_body" ManuallyRouted="false" />
+        <AssociationConnector Association="CarShowroomModel.FK_Customers_Cars" ManuallyRouted="false" />
+        <AssociationConnector Association="CarShowroomModel.FK_Customers_Staff" ManuallyRouted="false" />
+        <AssociationConnector Association="CarShowroomModel.FK_Manufactures_Staff" ManuallyRouted="false" />
+        <AssociationConnector Association="CarShowroomModel.FK_Staff_Positions" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
